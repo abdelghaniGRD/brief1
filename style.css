@@ -548,14 +548,58 @@ button:focus-visible {
   font-size: 13px;
   color: #94a3b8;
 }
+
 .contact .conteneur {
   text-align: center;
   margin: 30px;
 }
 
 .contact .contact-details {
-  border: #4b5563 solid 1px;
-  width: 200px;
+  border: #ff3700 solid 2px;
+  width: 300px;
   margin-right: auto;
   margin-left: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 6px;
+}
+
+.contact .contact-details .input {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+.contact .contact-details .last-name {
+  margin: 20px;
+}
+
+.contact .contact-details .contact-mail {
+  margin-bottom: 10px;
+}
+.contact .contact-details .action-buttons {
+  margin-bottom: 10px;
+}
+.contact .contact-details .action-buttons button {
+  width: 90px;
+  padding: 5px;
+  border-radius: 5px;
+  border: white;
+  background: green;
+  color: white;
+  font-size: 20px;
+  width: 120px;
+  padding: 6px;
+}
+.contact .contact-details .last-name p,
+.contact .contact-details .first-name p,
+.contact .contact-details .contact-mail p {
+  margin-bottom: 8px;
 }
