@@ -592,7 +592,7 @@ button:focus-visible {
   padding: 5px;
   border-radius: 5px;
   border: white;
-  background: green;
+  background: #ff3700;
   color: white;
   font-size: 20px;
   width: 120px;
