@@ -2,7 +2,7 @@
 
 ## 📌 Contexte du projet
 
-Pour une meilleure présence sur le web, la société **Élan Fitness** souhaite migrer d'un site *one pager* à un site *multipage*.
+Pour une meilleure présence sur le web, la société **Élan Fitness** souhaite migrer d'un site _one pager_ à un site _multipage_.
 
 Le **product owner** de l'entreprise va faire avec vous une réunion afin de vous expliquer le besoin de l'entreprise et valider vos propositions.
 
@@ -41,7 +41,7 @@ Pour cela, en tant qu'**intégrateur web**, vous devez apporter les modification
 ## 🧑‍🏫 Modalités pédagogiques
 
 - Vous disposez de **4 jours en autonomie** pour réaliser le brief en utilisant les technologies front-end appropriées (**HTML, CSS**).
-- Vous trouverez le lien vers les **assets** dans la section *Ressources*.
+- Vous trouverez le lien vers les **assets** dans la section _Ressources_.
 - 📅 **Date limite de soumission : 09/10/2026 à 23h59**
 
 > 🤝 Aidez-vous les uns les autres.
@@ -52,11 +52,11 @@ Pour cela, en tant qu'**intégrateur web**, vous devez apporter les modification
 
 **Présentation de 15 minutes :**
 
-| Durée | Étape |
-|---|---|
-| 5 minutes | Démonstration du livrable |
+| Durée     | Étape                         |
+| --------- | ----------------------------- |
+| 5 minutes | Démonstration du livrable     |
 | 5 minutes | Explication de la partie code |
-| 5 minutes | Évaluation des savoirs (Q/A) |
+| 5 minutes | Évaluation des savoirs (Q/A)  |
 
 ---
 
@@ -86,9 +86,9 @@ repository/
 
 ### 📱 Responsive : points de rupture
 
-| Appareil | Largeur d'écran |
-|---|---|
-| 🖥️ Grand écran d'ordinateur | À partir de **1280px** |
+| Appareil                    | Largeur d'écran            |
+| --------------------------- | -------------------------- |
+| 🖥️ Grand écran d'ordinateur | À partir de **1280px**     |
 | 💻 Petit écran d'ordinateur | De **1024px** à **1279px** |
-| 📋 Tablette | De **768px** à **1023px** |
-| 📱 Mobile | Jusqu'à **767px** |
+| 📋 Tablette                 | De **768px** à **1023px**  |
+| 📱 Mobile                   | Jusqu'à **767px**          |
