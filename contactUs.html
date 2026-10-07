@@ -44,12 +44,13 @@
             <h1>Contactez-nous</h1>
           </div>
 
-          <div class="contact-details">
-            <form>
+          <form>
+            <div class="contact-details">
               <div class="first-name">
                 <label for="first-name">Enter votre nom:</label>
-
+                <br />
                 <input
+                  autocomplete="name"
                   id="first-name"
                   name="first-name"
                   class="input"
@@ -60,9 +61,10 @@
 
               <div class="last-name">
                 <label for="last-name">Enter votre prenom:</label>
+                <br />
                 <input
                   id="last-name"
-                  name="last-name:"
+                  name="last-name"
                   class="input"
                   type="text"
                   placeholder="Prenom"
@@ -71,6 +73,8 @@
 
               <div class="contact-mail">
                 <label for="email">Enter votre adresse mail:</label>
+                <br />
+
                 <input
                   id="email"
                   name="email"
@@ -82,20 +86,21 @@
 
               <div class="message">
                 <label for="message">Enter votre message</label>
-                <input
+                <br />
+
+                <textarea
                   id="message"
-                  name="email"
-                  class="input"
-                  type="text"
-                  placeholder="Adress mail"
-                />
+                  name="message"
+                  rows="4"
+                  cols="50"
+                ></textarea>
               </div>
 
               <div class="action-buttons">
                 <button>s'inscrire</button>
               </div>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
       </section>
     </main>

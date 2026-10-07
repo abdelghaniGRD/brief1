@@ -556,10 +556,10 @@ button:focus-visible {
 
 .contact .contact-details {
   border: #ff3700 solid 2px;
-  width: 300px;
+  width: 500px;
   margin-right: auto;
   margin-left: auto;
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -577,16 +577,10 @@ button:focus-visible {
   color: #333;
 }
 
-.contact .contact-details .last-name {
-  margin: 20px;
-}
-
-.contact .contact-details .contact-mail {
-  margin-bottom: 10px;
-}
 .contact .contact-details .action-buttons {
   margin-bottom: 10px;
 }
+
 .contact .contact-details .action-buttons button {
   width: 90px;
   padding: 5px;
@@ -597,6 +591,7 @@ button:focus-visible {
   font-size: 20px;
   width: 120px;
   padding: 6px;
+  margin-top: 6px;
 }
 .contact .contact-details .last-name p,
 .contact .contact-details .first-name p,
