@@ -50,6 +50,9 @@ button:focus-visible {
   margin: 0 auto;
   padding: 0 24px;
 }
+header .conteneur nav {
+  display: none;
+}
 
 .section {
   padding: 96px 0;
@@ -514,8 +517,7 @@ button:focus-visible {
 
 .pied-haut {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+
   padding-bottom: 32px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -550,6 +552,22 @@ button:focus-visible {
 }
 #contact {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .conteneur .pied-haut {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .conteneur .pied-haut nav .menu-pied {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .conteneur .pied-bas {
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
