@@ -55,7 +55,7 @@ header .conteneur nav {
 }
 
 .section {
-  padding: 96px 0;
+  padding: 40px 0;
 }
 
 .section-blanche {
@@ -217,7 +217,7 @@ header .conteneur nav {
 }
 
 .hero {
-  padding: 64px 0 96px;
+  padding: 40px 0 40px;
 }
 
 .hero-contenu {
@@ -263,7 +263,7 @@ header .conteneur nav {
 
 .chiffres {
   display: flex;
-  margin-top: 64px;
+  margin-top: 40px;
   padding: 32px;
   background-color: #ffffff;
   border: 1px solid #e5e7eb;
@@ -555,13 +555,30 @@ header .conteneur nav {
   align-items: center;
   justify-content: center;
 }
+main .conteneur .hero-contenu {
+  flex-direction: column-reverse;
+}
 
-footer .conteneur .pied-haut {
+main .conteneur .chiffres {
   flex-direction: column;
+  gap: 40px;
+}
+section .conteneur .cartes {
+  flex-direction: column;
+}
+
+section .conteneur .cartes .carte {
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-footer .conteneur .pied-haut nav .menu-pied {
+
+main .conteneur .hero-texte .boutons {
+  flex-direction: column;
+}
+
+footer .conteneur .pied-haut {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -570,6 +587,11 @@ footer .conteneur .pied-bas {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+footer .conteneur .pied-haut nav .menu-pied {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .contact .conteneur {
   text-align: center;
